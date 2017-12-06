@@ -45,9 +45,4 @@
     
     return [[BasicDrawingAppearance alloc] initWithWidth:width borderColor:borderColor contentColor:contentColor needToClose:needToClose drawingMode:drawingMode lineJoin:lineJoin lineCap:lineCap alpha:alpha dashSetting:dashSetting];
 }
-
-//- (void)dealloc{
-//    NSLog(@"BDA");
-//}
-
 @end

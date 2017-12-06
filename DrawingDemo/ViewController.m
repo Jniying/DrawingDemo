@@ -96,6 +96,12 @@
     
     [view5 drawLines:@[kRectA(30, 30, 40, 40)] appearance:_appearance3];
     [view5 drawLines:@[kPointB(50, 60), kLineB(30, -135), kMoveLineB(30, -180), kLineB(50, -90)] appearance:_appearance4];
+    
+    BasicDrawingView *view6 = [BasicDrawingView basicDrawingViewWithFrame:CGRectMake(200, 200, 100, 100)];
+    view6.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:view6];
+    [view6 drawLines:@[kRectA(30, 30, 40, 40)] appearance:_appearance3];
+    
 }
 
 - (void)drawingViewDidTap:(BasicDrawingView *)basicDrawingView{
